@@ -34,14 +34,15 @@ def run():
                 print("FELICIDADES, HAZ GANADO")
             if eleccion1 > 51:
                 print("La dificultad elegida no acepta numeros arriba de 50.")
+            random1 = str(random1)
             if vidas1 == 0:
                 print("Has perdido, el numero correcto era " + random1)
                 break
         
     if menu == 2:
-        print("Haz escogido medio, tienes que adivinar un numero del 1 al 100, tendras 5 intentos.")
+        print("Haz escogido medio, tienes que adivinar un numero del 1 al 100, tendras 5 intentos. ")
         random2 = random.randint(1, 100)
-        eleccion2 = int(input("Escoge el numero"))
+        eleccion2 = int(input("Escoge el numero "))
         vidas2 = 5
         while eleccion2 != random2:
             if eleccion2 < random2:
@@ -55,6 +56,7 @@ def run():
             if eleccion2 > 101:
                 print("La dificultad elegida no acepta numeros arriba de 50.")
             if vidas2 == 0:
+                random2 = str(random2)
                 print("Has perdido, el numero correcto era " + random2)
                 break
         
