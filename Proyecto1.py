@@ -72,7 +72,7 @@ def run():
                 break
         
     if menu == 3:
-        print("Haz escogido medio, tienes que adivinar un numero del 1 al 1000, tendras 5 intentos. ")
+        print("Haz escogido dificil, tienes que adivinar un numero del 1 al 1000, tendras 5 intentos. ")
         random3 = random.randint(1, 1000)
         eleccion3 = int(input("Escoge el numero "))
         vidas3 = 5
@@ -100,7 +100,7 @@ def run():
         
 
     if menu == 4:
-            print("Haz escogido medio, tienes que adivinar un numero del 1 al 1000000, tendras 5 intentos. ")
+            print("Haz escogido IMPOSIBLE, tienes que adivinar un numero del 1 al 1000000, tendras 5 intentos. ")
             random4 = random.randint(1, 1000000)
             eleccion4 = int(input("Escoge el numero "))
             vidas4 = 5
