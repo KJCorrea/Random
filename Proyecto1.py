@@ -28,11 +28,11 @@ def run():
             vidas1 -= 1
             if eleccion1 < random1:
                 vidas1 = str(vidas1)
-                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas1 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas1 + " intentos ")
                 vidas1 = int(vidas1)
             if eleccion1 > random1:
                 vidas1 = str(vidas1)
-                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas1 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas1 + " intentos ")
                 vidas1 = int(vidas1)
             
             eleccion1 = int(input("Intenta con otro numero"))
@@ -54,11 +54,11 @@ def run():
         while eleccion2 != random2:
             if eleccion2 < random2:
                 vidas2 = str(vidas2)
-                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas2 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas2 + " intentos ")
                 vidas2 = int(vidas2)
             if eleccion2 > random2:
                 vidas2 = str(vidas2)
-                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas2 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas2 + " intentos ")
                 vidas2 = int(vidas2)
             vidas2 -= 1
             eleccion2 = int(input("Intenta con otro numero"))
@@ -82,11 +82,11 @@ def run():
             vidas3 -= 1
             if eleccion3 < random3:
                 vidas3 = str(vidas3)
-                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas3 + "vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas3 + "intentos ")
                 vidas3 = int(vidas3)
             if eleccion3 > random3:
                 vidas3 = str(vidas3)
-                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas3 + "vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas3 + "intentos ")
                 vidas3 = int(vidas3)
             
             eleccion3 = int(input("Intenta con otro numero "))
@@ -111,11 +111,11 @@ def run():
                 vidas4 -= 1
                 if eleccion4 < random4:
                     vidas4 = str(vidas4)
-                    print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas4 + " vidas ")
+                    print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas4 + " intentos ")
                     vidas4 = int(vidas4)
                 if eleccion4 > random4:
                     vidas4 = str(vidas4)
-                    print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas4 + " vidas ")
+                    print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas4 + " intentos ")
                     vidas4 = int(vidas4)
                 
                 eleccion4 = int(input("Intenta con otro numero "))
