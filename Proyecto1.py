@@ -25,15 +25,16 @@ def run():
         vidas1 = 5
         vidas1 -= 1
         while eleccion1 != random1:
+            vidas1 -= 1
             if eleccion1 < random1:
                 vidas1 = str(vidas1)
-                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas1 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas1 + " vidas ")
                 vidas1 = int(vidas1)
             if eleccion1 > random1:
                 vidas1 = str(vidas1)
                 print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas1 + " vidas ")
                 vidas1 = int(vidas1)
-            vidas1 -= 1
+            
             eleccion1 = int(input("Intenta con otro numero"))
             if eleccion1 == random1:
                 print("FELICIDADES, HAZ GANADO")
@@ -53,7 +54,7 @@ def run():
         while eleccion2 != random2:
             if eleccion2 < random2:
                 vidas2 = str(vidas2)
-                print("Este no era el numero correcto, el numero que buscas es MENOR, te quedan " + vidas2 + " vidas ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas2 + " vidas ")
                 vidas2 = int(vidas2)
             if eleccion2 > random2:
                 vidas2 = str(vidas2)
