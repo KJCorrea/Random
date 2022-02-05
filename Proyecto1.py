@@ -2,7 +2,7 @@ import random
 
 def run():
     menu = int(input( """
-    Hola, bienvenido a el juego, para empezar, escoga una dificultad:
+    Hola, bienvenido a "RANDOM" tu mision es adivinar el numero en menos de 5 intentos, para empezar, escoga una dificultad:
     
     
     1) Facil
