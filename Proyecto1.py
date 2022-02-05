@@ -28,7 +28,7 @@ def run():
             vidas1 -= 1
             if eleccion1 < random1:
                 vidas1 = str(vidas1)
-                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas1 + " oportunidades ")
+                print("Este no era el numero correcto, el numero que buscas es MAYOR, te quedan " + vidas1 + " intentos ")
                 vidas1 = int(vidas1)
             if eleccion1 > random1:
                 vidas1 = str(vidas1)
